@@ -10,6 +10,7 @@ int main() {
         std::cout << "Image not loaded";
         return -1;
     }
+    namedWindow("[img]");
     imshow("[img]", srcImage);
     waitKey(0);
     return 0;
